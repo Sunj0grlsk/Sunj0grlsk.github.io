@@ -1,0 +1,335 @@
+main{
+    display: flex;
+    height: 800px;
+    background: url(../img/fons/main\ fon.png) center/cover no-repeat;
+}
+main .main_promo_text{
+    position: absolute;
+    color:#000000;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 80px;
+    text-align: center;
+    line-height: 150px;
+    top: 30vh;
+    left: 7vw;
+    z-index: 1;
+}
+
+h1 {
+    -webkit-text-stroke: 0.5px rgb(0, 0, 0);
+
+    font-family: Impact; color: rgb(255, 175, 175);
+}
+
+#circle {
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    background: #95bff0;
+    -moz-border-radius: 100px;
+    -webkit-border-radius: 100px;
+    border-radius: 300px;
+    top: 30%;
+    left: 20%;
+}
+
+.text {
+    font-size: 40px;
+    font-family: serif;
+    position: absolute;
+    text-align: justify;
+    text-indent: 30px;
+    border: 3px dashed rgb(0, 0, 0);
+    padding: 10px 10px 10px 10px;
+    margin: 20px;
+    width: 500px; 
+    left: 45%;
+    top: 30%;
+    border-width: 3px;
+    z-index: 1;
+}
+
+#circle2 {
+    position: absolute;
+    width: 500px;
+    height: 500px;
+    background: #95bff0;
+    -moz-border-radius: 100px;
+    -webkit-border-radius: 1000px;
+    border-radius: 1000px;
+    top: 20%;
+    left: 65%;
+}
+
+#circle3 {
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    background: #ffad61;
+    -moz-border-radius: 100px;
+    -webkit-border-radius: 1000px;
+    border-radius: 1000px;
+    top: 50%;
+    left: 65%;
+}
+
+.home_img{
+    position: absolute;
+    max-width: 500px;
+    max-height: 500px;
+    margin-top: 20px;
+    top: 30%;
+    left: 75%;
+}
+
+.vertical {
+    border-left: 3px solid black;
+    height: 800px;
+    position:absolute;
+    left: 40%;
+}
+
+.page{
+ position:absolute;
+left:50%;
+width:1200px;
+margin-left:-600px;
+}
+.center{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 100px;
+    background-color:#b0cbff;
+    margin-top: 0px;
+    height: 500px;
+    width: 1868px;
+}
+.center .office, .center .course{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 500px;
+    min-height: 500px;
+    z-index: 1;
+
+}
+.center .office .office_img, .center .course .course_img{
+    max-width: 300px;
+    max-height: 300px;
+    margin-top: 20px;
+}
+.center .office .office_subheader, .center .course .course_subheader{
+    color:#000000;
+    text-decoration: none;
+    line-height: 15px;
+    text-align:center;
+}
+.center .office .office_text, .center .course .course_text{
+    color:#000000;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 15px;
+    text-align:center;
+}
+.center .office .office_btn, .center .course .course_btn{
+    margin-top: 19px;
+    width: 172px;
+    height: 46px;
+    background: linear-gradient(0deg, #ee6de3 0%, #a16cf5 100%);
+    box-shadow: inset 0px -3px 0px rgba(0, 0, 0, 0.12);
+    border-radius: 9px;
+    border:none;
+    color:#FFFFFF;
+    font-size: 14px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+.info{
+    background-color:#ffbcbc;
+    margin-top: 0px;
+    height: 200px;
+    width: 1868px;
+
+}
+
+.info .info_subheader{
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 20px;
+    text-align: center;
+    line-height: 45px;
+    color:rgb(24, 23, 23);
+}
+.info .info_text{
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 20px;
+    text-align: center;
+    line-height: 45px;
+    color:rgb(15, 14, 14);
+}
+.info .info_catalog, .plan .plan_catalog{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 20px;
+    align-items:center;
+}
+.info .info_catalog .catalog_item{
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+}
+.info .info_catalog .catalog_item .item_img{
+    height: 50px;
+    width: 50px;
+}
+.info .info_catalog .catalog_item .item_text{
+    color:#000000;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 15px;
+    margin-top: 20px;
+    font-weight: 500;
+}
+
+
+.plan .plan_subheader, .reviews .review_subheader{
+    color:#000000;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 20px;
+    text-align: center;
+    line-height: 45px;
+    border:#000000;
+}
+.plan .item_subheader{
+    color:#555ACE;
+    font-weight: 500;
+    font-size: 20px;
+    text-align: center;
+}
+
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.review {
+    max-width: 300px;
+    min-height: 100px;
+    background-color: #fa8cba;
+    border-radius: 5px; 
+    padding: 16px;
+    margin-top: 20px;
+}
+  .review img {
+    float: left; 
+    margin-right: 20px; 
+    width: 30%;
+    height: 30%;
+}
+  .review span {
+    font-size: 18px;
+    margin-right: 15px;
+}
+  .reviews{
+    margin-top: 20px;
+}
+.text1 {
+    color:#000000;
+    font-family: Arial;
+}
+.block {
+    display: block;
+    width: 20%;
+    border: none;
+    background-color: #b9f1bb;
+    padding: 14px 28px;
+    font-size: 20px;
+    cursor: pointer;
+    text-align: center;
+  }
+  .block2 {
+    display: block;
+    width: 20%;
+    border: none;
+    background-color: #b9f1bb;
+    padding: 14px 28px;
+    font-size: 20px;
+    cursor: pointer;
+    text-align: center;
+  }
+  .block3 {
+    display: block;
+    width: 20%;
+    border: none;
+    background-color: #b9f1bb;
+    padding: 14px 28px;
+    font-size: 20px;
+    cursor: pointer;
+    text-align: center;
+  }
+  .button7 {
+    border: 2px solid #e34761;
+    display: block;
+    width: 20%;
+    border: none;
+    background-color: #b9f1bb;
+    padding: 14px 28px;
+    font-size: 20px;
+    cursor: pointer;
+    text-align: center;
+  }
+
+
+  .sidebar .panel-body {
+    padding-bottom: 1em;
+}
+
+@media (max-width: 100px) {
+	.panel .image {
+		height: 100px;
+	}
+}
+@media (min-width: 992px) {
+	.panel .image {
+		height: 10vmax;
+		min-height: 200px;
+	}
+}
+
+.panel .panel-heading a, .panel .panel-body a {
+	display: inline;
+}
+.panel a:hover .image {
+	transition: .5s all;
+	transform: scale(1.05);
+}
+.panel-heading+a+br, .panel .image-preview-box+br {
+	display: none;
+}
+.panel .image {
+	transition: .5s all;
+ 	width: 100%;
+    object-position: center 20%;
+    object-fit: cover;
+    overflow: hidden;
+}
+.panel .image.noimage {
+    object-fit: contain;
+    object-fit: scale-down;
+}
+
+.top p{
+	text-align: center;
+}
+.top{
+	max-width: 200px;
+}

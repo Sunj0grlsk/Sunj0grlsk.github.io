@@ -1,0 +1,85 @@
+*{
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+}
+.test{
+    height: 1000px;
+    width: 10px;
+    border-color: red
+}
+.button {
+    background-color: #ffffff;
+    border: none;
+    color: black;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+}
+
+.button1 {border-radius: 4px;}
+.button2 {border-radius: 4px;}
+.button3 {border-radius: 4px;}
+
+  
+header{
+    z-index: 1;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color:#b0cbff;
+    min-height: 70px;
+    width: 1868px;
+}
+
+header .menu_link{
+    color:white;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 16px;
+}
+header .header_logo{
+    max-width: 287px;
+    max-height: 50px;
+}
+header .account{
+    min-width: 50px; 
+    min-height: 50px;
+    background: rgb(0, 0, 0);
+    border-radius: 50%;
+}
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:#b0cbff;
+    min-height: 70px;
+    width: 100%;
+    margin-top: 20px;
+    width: 1868px;
+}
+footer .footer_text{
+    color:rgb(0, 0, 0);
+    font-weight: 500;
+    font-size: 16px;
+}
+
+body {
+    background: url('video.png');
+    background-size: auto;
+    
+  }
+  
+  .bgvideo {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -9999;
+  }
